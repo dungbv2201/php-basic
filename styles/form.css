@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form-register{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 500px;
+    border: 1px solid;
+    padding: 30px;
+}
+.form-register h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+label.label{
+    min-width: 100px;
+    display: inline-block;
+}
+
+button.submit{
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #3060d9;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.2s linear;
+    display: block;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto
+}
+button.submit:hover{
+    color: #000;
+    background: #093cbd;
+}
+.invalid{
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+    margin-left: 105px;
+}
